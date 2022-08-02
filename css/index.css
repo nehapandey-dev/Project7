@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-item {
+  display: inline;
+  text-align: center;
+  position: relative;
+  top: -40px;
+  left: 400px;
+  right: 400px;
+  padding: 30px;
+  font-size: 15px;
+  font-family: Poppins;
+}
+
+.active-item {
+  color: rgb(233, 86, 33);
+  font-style: normal;
+  font-family: "Fredoka One";
+}
+
+body img[alt="logo"] {
+  margin: 20px 60px;
+  width: 70px;
+}
+
+nav img[alt="actions"] {
+  float: right;
+  display: flex;
+  position: relative;
+  top: -75px;
+}
+
+.left-section {
+  float: left;
+  justify-content: center;
+  margin-left: 60px;
+  font-family: Poppins;
+}
+
+.left-section>h3 {
+  font-size: 25px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.left-section>h1 {
+  font-size: 65px;
+  font-weight: lighter;
+  width: 740px;
+  font-family: "Fredoka One";
+}
+
+img[alt="headphone"] {
+  position: absolute;
+  float: right;
+  bottom: 150px;
+  width: 470px;
+  right: 80px;
+  top: 130px;
+  z-index: 1;
+}
+
+.discount {
+  width: 150px;
+  position: absolute;
+  left: 54%;
+  top: 55%;
+  z-index: 2;
+}
+
+.discount-content,
+h4>h1 {
+  position: absolute;
+  left: 57%;
+  top: 60%;
+  z-index: 3;
+  color: white;
+  font-family: Poppins;
+}
+
+.discount-content,
+h4 {
+  font-size: 20px;
+  font-family: "Fredoka One";
+}
+
+img[alt="circles"] {
+  width: 35px;
+}
+
+.action-btn {
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  border-radius: 16px;
+  margin-right: 10px;
+  background-color: rgb(233, 86, 33);
+  color: white;
+  border-style: none;
+  position: relative;
+  top: 36%;
+}
+
+.right-section>button {
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  border-radius: 16px;
+  background-color: rgb(233, 86, 33);
+  color: white;
+  border-style: none;
+  position: absolute;
+  top: 90%;
+  left: 70%;
+}
+
+.text {
+  width: 620px;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  font-size: small;
+  color: rgb(183, 179, 179);
+}
+
+.sub-headlines>h5 {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.yellow-dot {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(247, 247, 34);
+  margin: 10px 15px;
+  border-radius: 50%;
+}
+
+.tomato-dot {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(235, 88, 83);
+  margin: 10px 15px;
+  border-radius: 50%;
+}
+
+.black-dot {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(8, 8, 8);
+  margin: 10px 15px;
+  border-radius: 50%;
+}
+
+.dots {
+  display: flex;
+  position: absolute;
+  top: 82%;
+  left: 70%;
+}
+img[alt="plus"]{
+  background-color: rgb(235, 88, 83);
+  border-radius: 50%;
+  margin-right:10px;
+  }
